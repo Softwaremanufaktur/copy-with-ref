@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "selection-to-clipboard-with-ref",
     "description": "Copying with current ref to the Clipboard",
-    "version": "1.0",
+    "version": "1.1",
     "homepage_url": "https://github.com/Softwaremanufaktur/create-with-ref",
 
     "icons": {

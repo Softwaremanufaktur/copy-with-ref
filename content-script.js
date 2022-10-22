@@ -10,9 +10,8 @@ function copySelection() {
 }
 
 /*
-Add copySelection() as a listener to mouseup events.
+Add copySelection() as a listener to keydown events.
 */
-// document.addEventListener("mouseup", copySelection);
 document.addEventListener("keydown", (event) => {
   if (event.isComposing || event.keyCode === 229) {
     return;
@@ -20,5 +19,5 @@ document.addEventListener("keydown", (event) => {
   if (event.ctrlKey && event.altKey && event.keyCode == 67) {
     copySelection();
   }
-  // do something
+
 });
